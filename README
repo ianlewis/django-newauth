@@ -1,0 +1,8 @@
+django-newauth
+===================
+
+See the docs at: http://ianlewis.bitbucket.org/django-newauth/
+
+Run tests using setup.py::
+
+    $ python setup.py test

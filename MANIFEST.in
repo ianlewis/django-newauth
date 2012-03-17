@@ -1,0 +1,2 @@
+recursive-include newauth/templates *
+recursive-include newauth/fixtures *
