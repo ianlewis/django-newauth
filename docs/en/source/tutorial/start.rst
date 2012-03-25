@@ -76,7 +76,7 @@ primary key.
 
 .. code-block:: python
 
-    class MyUser(BaseUser):
+    class MyUser(UserBase):
 
         # ...
 
