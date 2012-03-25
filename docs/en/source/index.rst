@@ -12,7 +12,7 @@ right way. With newauth you can make user models that look like this:
 
     from newauth.api import UserBase
 
-    class User(BaseUser):
+    class User(UserBase):
         full_name = models.CharField(u"Full Name", max_length=255)
         email = models.EmailField('Email Address')
         profile = models.TextField('Profile Bio', blank=True, null=True)
